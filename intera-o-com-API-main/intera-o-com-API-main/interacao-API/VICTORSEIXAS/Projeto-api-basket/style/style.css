@@ -1,0 +1,29 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  #playerNameInput {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  #playerStats {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
