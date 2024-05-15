@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1; /* cor de fundo da página */
+}
+
+.container {
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+button {
+    border-radius: 30px;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+button.dark-mode {
+    background-color: white;
+    color: black;
+}
